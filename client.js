@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const https = require('http');
+const http = require('http');
 
 const CONFIG = {
   baseUrl: 'http://localhost:3000',
