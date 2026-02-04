@@ -10,7 +10,8 @@
 1. No installation needed - uses only Node.js built-in modules (crypto, http)
 
 ### Running the Solution
-run the 'test.js' with 'node server.js" you will see "EnergyGrid Mock API running on port 3000" after that run "npm start" 
+1- Run the server "node server.js" to start the API
+2- Run the client.js file using "node client.js" to see the output
 
 The client will:
 - Generate 500 serial numbers (SN-000 to SN-499)
