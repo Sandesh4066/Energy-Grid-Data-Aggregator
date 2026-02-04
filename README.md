@@ -10,9 +10,7 @@
 1. No installation needed - uses only Node.js built-in modules (crypto, http)
 
 ### Running the Solution
-```bash
-node client.js
-```
+run the 'test.js' with 'node server.js" you will see "EnergyGrid Mock API running on port 3000" after that run "npm start" 
 
 The client will:
 - Generate 500 serial numbers (SN-000 to SN-499)
@@ -44,13 +42,6 @@ Expected execution time: ~50 seconds (due to 1 req/sec rate limit)
 - **Fresh Timestamps**: Unique timestamp per request to prevent replay attacks
 - **Header Validation**: Includes required `signature` and `timestamp` headers
 
-## Assumptions
-
-1. **Sequential is Optimal**: Given the strict 1 req/sec limit, sequential processing is the most reliable approach
-2. **Batch Size**: Always use maximum batch size (10) to minimize total requests
-3. **Server Availability**: Mock API server is running and accessible at localhost:3000
-4. **Token Stability**: API token remains constant throughout execution
-5. **Error Recovery**: Failed batches are logged but don't stop the entire process
 
 ## Code Structure
 
