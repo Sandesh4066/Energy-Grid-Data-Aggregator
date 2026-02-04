@@ -62,3 +62,6 @@ Expected execution time: ~50 seconds (due to 1 req/sec rate limit)
 - `processBatches()` - Orchestrates batch processing with rate limiting
 - `generateSummary()` - Aggregates statistics from device data
 - `main()` - Entry point that coordinates the entire flow
+
+## Data
+- I have Uploaded the Aggregated data in this GitHub Repo
