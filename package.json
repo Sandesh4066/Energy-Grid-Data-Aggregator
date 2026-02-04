@@ -1,0 +1,25 @@
+{
+  "name": "energygrid-client",
+  "version": "1.0.0",
+  "description": "Client application to fetch data from 500 solar inverters with rate limiting and error handling",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "solar",
+    "inverter",
+    "api-client",
+    "rate-limiting",
+    "energy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
