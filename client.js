@@ -51,7 +51,7 @@ async function makeRequest(serialNumbers) {
   };
 
   return new Promise((resolve, reject) => {
-    const req = https.request(options, (res) => {
+    const req = http.request(options, (res) => {
       let data = '';
 
       res.on('data', (chunk) => {
